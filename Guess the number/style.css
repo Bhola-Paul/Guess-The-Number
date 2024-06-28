@@ -1,0 +1,58 @@
+.navi{
+    height: 650px;
+    width: 650px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    height: 600px;
+    width: 500px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    margin-bottom: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#submit{
+    background-color: black;
+    color: azure;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+#submit:hover{
+    background-color: white;
+    color: black;
+}
+#num{
+    width: 200px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+#head{
+    color: black;
+}
+.res{
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center; 
+     /* justify-content: center; */
+}
